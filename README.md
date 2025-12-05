@@ -9,7 +9,7 @@
 
 
 ### Figuring out what calls you'll need
-Now, everything should be connected and working due to the default settings. From now on, we'll just be working the last terminal.All the available calls  for dv-control can be found [here](https://dv-runtime.inivation.com/master/runtime/usage/dv-control.html#command-line-interface).
+Now, everything should be connected and working due to the default settings. From now on, we'll just be working the last terminal. All the available calls  for dv-control can be found [here](https://dv-runtime.inivation.com/master/runtime/usage/dv-control.html#command-line-interface).
 
 
 Your just need to call `dump_tree`. This will show you all the modules used in the "mainloop"(your process/project) and also available modules. 
