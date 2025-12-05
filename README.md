@@ -27,7 +27,7 @@ So, to update a parameter you can run something like this
 set /mainloop/event_visualizer/ backgroundColor "1E2534"
 ``` 
 
-And similarly to get the value of a module parameter
+And, similarly, to get the value of a module parameter
 ``` 
 get /mainloop/event_visualizer/ backgroundColor
 ``` 
