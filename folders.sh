@@ -1,1 +1,0 @@
-DVINPUTPUT_DIR="/Volumes/SUREFIRE/DVoutput-from-CLI"
