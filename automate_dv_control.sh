@@ -10,11 +10,11 @@ for folder in "$DVINPUTPUT_DIR"/*; do
         folderNum=$(basename "$folder")
         echo "Processing folder: $folderNum"
 
-        # event file for processing in DV
+        # Event file for processing in DV
         eventsFile="${ROOT_PATH}/SUREFIRE/DVoutput/${folderNum}/events.aedat4"
-        # make output dir
+        # Output dir
         outputdir="${folder}/mkv"
-        # make it if it doesn't exist
+        # Make it if it doesn't exist
         #mkdir -p "$folder/mkv"
 
         # loop through decimation values
@@ -38,7 +38,7 @@ EOF
             sleep 0.2
             echo "Now creating ${folderNum}_sampled_${percent}_percent.mkv"
 
-            #check if file is done being processed
+            # Check if file is done being processed
             while true; do
                 result=$(dv-control <<EOF
 get /mainloop/input_file/ isRunning
