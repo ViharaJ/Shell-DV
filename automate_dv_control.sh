@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# Load variables from file
 source ./folders.sh
+
 # Loop through all items in the directory
 for folder in "$DVINPUTPUT_DIR"/*; do
 	echo "folder $folder"
