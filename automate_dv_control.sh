@@ -33,6 +33,7 @@ set /mainloop/event_visualizer/ running true
 set /mainloop/event_visualizer/ backgroundColor ${BG_COLOR}
 set /mainloop/event_visualizer/ positiveColor ${PS_COLOR}
 set /mainloop/event_visualizer/ negativeColor ${NG_COLOR}
+set /mainloop/video_output/ fileName ${output_full_filepath}
 set /mainloop/input_file/ file ${eventsFile}
 set /mainloop/input_file/ running true
 exit
